@@ -14,7 +14,7 @@ import java.util.List;
 
 public class UserActivity extends AppCompatActivity {
 
-    public List<Contact> contactList = new ArrayList<Contact>();
+    public List<Contact> contactList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +25,8 @@ public class UserActivity extends AppCompatActivity {
 
         //init contacts
         contactList.add(new Contact("Jean","Pierre","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
-        contactList.add(new Contact("kober","pauline","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
-        contactList.add(new Contact("elbikri","safae","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
+        contactList.add(new Contact("Newton","Issak","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
+        contactList.add(new Contact("Einshten","Albert","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
         contactList.add(new Contact("louis","Nico","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
         contactList.add(new Contact("ali","el bikri","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
         contactList.add(new Contact("Richard","Menez","https://histoire-image.org/sites/default/jeanne-arc-sacre-charlesvii.jpg"));
